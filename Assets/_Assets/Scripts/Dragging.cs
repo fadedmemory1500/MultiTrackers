@@ -32,7 +32,7 @@ public class Dragging : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 //cube is the tag of the object, need to change
-                if (hit.collider.tag == "Player")
+                if (hit.collider.tag == "move")
                 {
                     toDrag = hit.transform;
                     dist = hit.transform.position.z - Camera.main.transform.position.z;
