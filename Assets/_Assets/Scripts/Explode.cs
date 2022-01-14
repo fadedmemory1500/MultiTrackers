@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Explode : MonoBehaviour
 {
-    public int cubesPerAxis = 8;
-    public float delay = 1f;
+    public int cubesPerAxis = 5;
+    public float delay = 3f;
     public float force = 300f;
-    public float radius = 2f;
+    public float radius = 1f;
 
     void Start()
     {
